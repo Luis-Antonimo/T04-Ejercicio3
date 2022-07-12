@@ -6,9 +6,9 @@ namespace T04Ejercicio3
     {
         static void Main()
         {
-            Console.WriteLine("Diga su nombre:");
+            Console.WriteLine("Escriba su nombre:");
             String nombre = Console.ReadLine();
-            Console.WriteLine("Diga su edad:");
+            Console.WriteLine("Escriba su edad:");
             //Se necesita convertir el string que retorna ReadLine
             //a una variable numérica
             int edad = Convert.ToInt32(Console.ReadLine());
